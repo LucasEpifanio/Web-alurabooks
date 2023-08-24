@@ -21,21 +21,21 @@ background-clip: text;
     margin: 1em 0;
 }
 
-
-.contato__email{
-    padding: 1em;
-    border: 1px solid var(--azul);
-    border-radius:24px;
-    width: 90%;
-    color: var(--azul);
+.cadastro__section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.contato__email::placeholder{
+.cadastro{
+    padding: 1rem 1.5rem;
+    color: var(--branco);
+    font-size: 1rem;
     font-family: var(fonte-principal);
-    color: var(--azul);
-    background: url(../img/Email.svg) no-repeat;
-    padding-left: 2em;
-    padding-top: 0.3em;
+    font-weight:600;
+    background-color: var(--laranja);
+    text-decoration: none;
+    border:solid var(--azul) 0.1rem;
 }
 
 
@@ -52,10 +52,6 @@ background-clip: text;
     
     .contato__descrição{
         margin-right: 1em;
-        width: 30%;
-    }
-
-    .contato__email{
         width: 30%;
     }
 }
