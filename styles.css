@@ -25,3 +25,14 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+
+.opções__link__strong{
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+.livro__titulo{
+    text-decoration: none;
+    color: var(--laranja);
+}
